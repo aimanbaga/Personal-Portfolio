@@ -1,21 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://aimanbaga.github.io/Personal-Portfolio/',
+  title: 'AB.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  name: 'Aiman Baga',
+  role: 'Computer Engineer',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'A motivated Computer Engineer who thrives on learning, building, and discovering new possibilities.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/aimanbaga',
+    github: 'https://github.com/aimanbaga',
   },
 }
 
@@ -23,13 +22,13 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Calculator',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'A calculator built using CSS, HTML, JavaScript',
+    stack: ['CSS', 'HTML', 'JavaScript'],
+    sourceCode: 'https://github.com/aimanbaga/Calculator',
+    livePreview: 'https://aimanbaga.github.io/Calculator/',
+    image: 'Calculator.png',
   },
   {
     name: 'Project 2',
@@ -58,18 +57,14 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'jQuery',
+  'Bootstrap',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'baga.aiman21@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
