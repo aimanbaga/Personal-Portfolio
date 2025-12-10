@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://aimanbaga.github.io/Personal-Portfolio/',
+  homepage: 'https://aimanbaga.github.io/personal-portfolio/',
   title: 'AB.',
 }
 
