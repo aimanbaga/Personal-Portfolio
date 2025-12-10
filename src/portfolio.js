@@ -24,7 +24,7 @@ const projects = [
   {
     name: 'Calculator',
     description:
-      'A calculator built using CSS, HTML, JavaScript',
+      'A calculator built using CSS, HTML, JavaScript.',
     stack: ['CSS', 'HTML', 'JavaScript'],
     sourceCode: 'https://github.com/aimanbaga/Calculator',
     livePreview: 'https://aimanbaga.github.io/Calculator/',
