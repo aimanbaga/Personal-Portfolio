@@ -1,8 +1,7 @@
 import './Footer.css'
 
 const Footer = () => (
-  <footer className='footer'>
-  </footer>
+  <footer className='footer' />
 )
 
 export default Footer
